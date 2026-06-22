@@ -91,3 +91,37 @@ section h3 {
     color: #2980b9;
     margin-bottom: 10px;
 }
+
+/* Desain Foto Profil */
+.foto-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat foto menjadi lingkaran */
+    object-fit: cover;
+    border: 4px solid #3498db; /* Garis tepi biru */
+    margin-bottom: 15px;
+}
+
+/* Desain Tombol Download CV */
+.btn-download {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #2980b9;
+}
+
+/* Desain Logo Pendidikan */
+.logo-pendidikan {
+    width: 60px; /* Ukuran logo */
+    height: auto;
+    margin-bottom: 10px;
+}
