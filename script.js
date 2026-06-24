@@ -10,7 +10,7 @@ fetch('data/profile.json')
         document.getElementById('telepon-user').textContent = data.phone;
     });
 
-// 2. Memuat Data Pengalaman Kerja (Diubah menjadi Paragraf)
+// 2. Memuat Data Pengalaman Kerja
 fetch('data/experience.json')
     .then(response => response.json())
     .then(data => {
@@ -19,7 +19,11 @@ fetch('data/experience.json')
             const kartu = document.createElement('div');
             kartu.className = 'kartu-riwayat';
             
+            // Mengecek apakah ada gambar dokumentasi di JSON
+            const gambarPengalaman = item.image ? `<img src="${item.image}" class="foto-pengalaman">` : '';
+
             kartu.innerHTML = `
+                ${gambarPengalaman}
                 <h4>${item.company}</h4>
                 <h5>${item.role} | ${item.period}</h5>
                 <p style="margin-top: 10px; color: #555; text-align: justify;">${item.description}</p>
