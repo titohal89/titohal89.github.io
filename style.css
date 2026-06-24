@@ -169,24 +169,49 @@ section h3 {
 .grid-proyek {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    gap: 30px; /* Jarak antar kartu sedikit diperlebar */
 }
 
 .kartu-proyek {
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 15px; /* Ujung kartu dibuat lebih membulat seperti contoh */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     transition: transform 0.3s;
+    overflow: hidden; /* Wajib ada agar warna latar atas tidak keluar batas lengkungan */
+    display: flex;
+    flex-direction: column;
 }
 
 .kartu-proyek:hover {
     transform: translateY(-5px);
 }
 
-.kartu-proyek h4 {
-    color: #2980b9;
+/* Kotak warna-warni di bagian atas kartu */
+.wadah-gambar-proyek {
+    background-color: #f0f4f8; /* Warna abu-abu kebiruan lembut (bisa Anda ganti kode warnanya) */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px dashed #cbd5e1; /* Efek garis putus-putus persis seperti di gambar */
+}
+
+/* Mengatur ukuran ikon animasi/logo */
+.ikon-proyek {
+    width: 120px; 
+    height: 120px;
+    object-fit: contain; /* Memastikan ikon tidak gepeng */
+}
+
+/* Area khusus teks di bagian bawah kartu */
+.konten-proyek {
+    padding: 25px;
+}
+
+.konten-proyek h4 {
+    color: #2c3e50;
     margin-bottom: 10px;
+    font-size: 1.3rem;
 }
 
 /* ------------------ BAGIAN FOOTER / KONTAK ------------------ */
