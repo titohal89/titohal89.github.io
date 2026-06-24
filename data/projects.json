@@ -2,7 +2,7 @@
   {
     "title": "Optimasi Efisiensi AC Berbasis IoT",
     "year": "2025",
-    "image": "images/ikon-ac.jfif",
+    "image": "images/ikon-ac.png",
     "description": "Merancang ekosistem cerdas menggunakan mikrokontroler ESP32 untuk memantau dan mengoptimalkan efisiensi energi pada mesin pendingin ruangan (AC). Proyek ini memanfaatkan pembacaan sensor arus untuk melacak konsumsi daya secara presisi dan melakukan penyesuaian operasional secara otomatis guna menekan pemborosan energi."
   },
   {
