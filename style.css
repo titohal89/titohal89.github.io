@@ -391,3 +391,25 @@ footer p {
     transform: scale(1.1) rotate(3deg); /* Ikon sedikit membesar dan miring 3 derajat */
     transition: transform 0.3s ease;
 }
+
+/* Desain Bentuk Ikon LinkedIn */
+.ikon-linkedin-animasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #0077b5; /* Warna biru resmi LinkedIn */
+    color: white;
+    border-radius: 50%; /* Membuat bentuk bulat sempurna */
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Efek saat ikon LinkedIn disentuh kursor mouse */
+.ikon-linkedin-animasi:hover {
+    background-color: #005582; /* Warna biru menjadi sedikit lebih gelap */
+    transform: scale(1.1) rotate(15deg); /* Tombol membesar 10% dan berputar 15 derajat */
+}
