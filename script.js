@@ -8,6 +8,8 @@ fetch('data/profile.json')
         document.getElementById('lokasi-user').textContent = data.location;
         document.getElementById('email-user').textContent = data.email;
         document.getElementById('telepon-user').textContent = data.phone;
+        // Membuat fungsi KLIK email di sebelah tombol CV (mailto:)
+        document.getElementById('link-email-profil').href = `mailto:${data.email}`;
     });
 
 // 2. Memuat Data Pengalaman Kerja
