@@ -1,17 +1,22 @@
 [
   {
+    "title": "Optimasi Efisiensi AC Berbasis IoT",
+    "year": "2025",
+    "description": "Merancang ekosistem cerdas menggunakan mikrokontroler ESP32 untuk memantau dan mengoptimalkan efisiensi energi pada mesin pendingin ruangan (AC). Proyek ini memanfaatkan pembacaan sensor arus untuk melacak konsumsi daya secara presisi dan melakukan penyesuaian operasional secara otomatis guna menekan pemborosan energi."
+  },
+  {
     "title": "Sistem Monitoring Water Level (GUI MATLAB)",
     "year": "2025",
-    "description": "Pengembangan sistem pemantauan ketinggian air secara real-time yang dirancang untuk akuisisi data dan visualisasi parameter level air melalui antarmuka grafis (GUI) MATLAB yang interaktif."
+    "description": "Mengembangkan sistem pemantauan ketinggian air secara real-time yang difokuskan pada proses akuisisi data presisi. Data pembacaan sensor diteruskan dan divisualisasikan menggunakan antarmuka grafis (GUI) interaktif yang dibangun dengan MATLAB untuk mempermudah analisis serta pemantauan parameter level air."
   },
   {
-    "title": "Sistem Pemantauan PLTS",
-    "year": "2025",
-    "description": "Desain sistem pemantauan komprehensif berbasis SCADA/HMI untuk melacak dan menganalisis data pembangkitan energi pada Pembangkit Listrik Tenaga Surya secara real-time."
+    "title": "Sistem Akses Keamanan Palang Pintu (RFID)",
+    "year": "2024",
+    "description": "Membangun sistem keamanan kontrol akses gerbang otomatis berbasis Radio Frequency Identification (RFID). Proyek ini mengintegrasikan mikrokontroler dengan aktuator mekanik untuk mengontrol pergerakan palang pintu secara otomatis begitu tag ID terverifikasi, memastikan hanya entitas yang memiliki izin yang dapat mengakses suatu area."
   },
   {
-    "title": "Dasbor Telemetri Node-RED & Arduino",
-    "year": "2025",
-    "description": "Pembuatan platform visualisasi data terpusat yang menerima transmisi data sensor lingkungan (kecepatan angin, suhu) melalui format JSON untuk analisis lanjutan."
+    "title": "Sistem Kendali Keseimbangan Lengan (Balancing Arm PID)",
+    "year": "2026",
+    "description": "Menerapkan teori kendali otomasi dengan mengimplementasikan algoritma Proportional-Integral-Derivative (PID) pada perangkat lengan penyeimbang (balancing arm). Desain mekanik sistem ini memanfaatkan konfigurasi dua motor—satu menghadap ke atas dan satu menghadap ke bawah, dengan putaran CW dan CCW—untuk menciptakan gaya dorong yang saling melengkapi. Kontroler PID secara dinamis membaca data kemiringan dan mengatur kecepatan kedua motor tersebut agar lengan dapat mencapai dan mempertahankan titik keseimbangan (setpoint) dengan presisi tinggi."
   }
 ]
