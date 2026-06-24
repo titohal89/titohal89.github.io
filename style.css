@@ -188,12 +188,21 @@ section h3 {
 
 /* Kotak warna-warni di bagian atas kartu */
 .wadah-gambar-proyek {
-    background-color: #f0f4f8; /* Warna abu-abu kebiruan lembut (bisa Anda ganti kode warnanya) */
-    padding: 40px 20px;
+    background-color: #f0f4f8;
+    height: 200px; /* KUNCI: Menetapkan tinggi pasti agar semua kartu sejajar rata */
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px dashed #cbd5e1; /* Efek garis putus-putus persis seperti di gambar */
+    border-bottom: 2px dashed #cbd5e1;
+}
+
+/* Mengatur ukuran ikon animasi/logo */
+.ikon-proyek {
+    width: 100%; 
+    height: 100%;
+    max-width: 130px; /* Ukuran maksimal ikon agar terlihat pas, tidak kekecilan/kebesaran */
+    object-fit: contain; 
 }
 
 /* Mengatur ukuran ikon animasi/logo */
@@ -260,11 +269,13 @@ footer p {
 
 /* Desain Foto Dokumentasi Pengalaman */
 .foto-pengalaman {
-    width: 100%; /* Membuat foto memenuhi lebar kartu */
-    height: 200px; /* Memotong foto agar tingginya seragam */
-    object-fit: cover; /* Mencegah foto menjadi gepeng/distorsi */
-    border-radius: 4px; /* Ujung foto sedikit melengkung */
-    margin-bottom: 15px; /* Jarak antara foto dan nama perusahaan */
+    width: 100%;
+    height: 150px; /* Dibuat sedikit lebih pendek agar proporsional untuk logo */
+    object-fit: contain; /* KUNCI: Agar logo pas di dalam kotak dan tidak terpotong */
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 10px; /* Memberi jarak aman di sekitar logo */
+    background-color: #fdfdfd; /* Memberi warna latar putih bersih */
 }
 
 /* Mengatur agar tombol CV dan ikon Email berdampingan */
