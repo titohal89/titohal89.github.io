@@ -53,7 +53,7 @@ fetch('data/education.json')
         });
     });
 
-// 4. Memuat Data Proyek (Menambahkan perataan teks)
+// 4. Memuat Data Proyek
 fetch('data/projects.json')
     .then(response => response.json())
     .then(data => {
@@ -61,9 +61,20 @@ fetch('data/projects.json')
         data.forEach(item => {
             const kartu = document.createElement('div');
             kartu.className = 'kartu-proyek';
+            
+            // Memeriksa apakah ada gambar ikon proyek
+            const gambarAtas = item.image ? `
+                <div class="wadah-gambar-proyek">
+                    <img src="${item.image}" alt="Ikon Proyek" class="ikon-proyek">
+                </div>
+            ` : '';
+
             kartu.innerHTML = `
-                <h4>${item.title}</h4>
-                <p style="text-align: justify;"><strong>${item.year}</strong> - ${item.description}</p>
+                ${gambarAtas}
+                <div class="konten-proyek">
+                    <h4>${item.title}</h4>
+                    <p style="text-align: justify;"><strong>${item.year}</strong> - ${item.description}</p>
+                </div>
             `;
             wadah.appendChild(kartu);
         });
