@@ -266,3 +266,56 @@ footer p {
     border-radius: 4px; /* Ujung foto sedikit melengkung */
     margin-bottom: 15px; /* Jarak antara foto dan nama perusahaan */
 }
+
+/* Mengatur agar tombol CV dan ikon Email berdampingan */
+.aksi-profil {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Jarak antara tombol CV dan ikon email */
+}
+
+/* Desain Bentuk Ikon Email */
+.ikon-email-animasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #e74c3c; /* Warna merah khas email */
+    color: white;
+    border-radius: 50%; /* Membuatnya bulat */
+    font-size: 1.5rem;
+    text-decoration: none;
+    animation: denyut 1.5s infinite; /* Memanggil efek animasi di bawah */
+}
+
+/* Efek saat ikon disentuh kursor mouse */
+.ikon-email-animasi:hover {
+    background-color: #c0392b;
+    animation: none; /* Animasi berhenti agar mudah diklik */
+    transform: scale(1.1); /* Logo sedikit membesar */
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Kunci Animasi CSS (Keyframes) untuk efek Berdenyut/Memancar */
+@keyframes denyut {
+    0% {
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7);
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0 0 0 15px rgba(231, 76, 60, 0); /* Pancaran warna memudar */
+        transform: scale(1.05); /* Sedikit membesar */
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
+        transform: scale(1);
+    }
+}
+
+/* Perbaikan untuk layar HP agar tetap rapi */
+@media (max-width: 768px) {
+    .aksi-profil {
+        justify-content: center; /* Mengetengahkan tombol di layar kecil */
+    }
+}
