@@ -1,21 +1,14 @@
 [
   {
-    "company": "PT. Innovasindo Smart System",
+    "company": "PT. Innovasindo Smart System & PT. Krakatau Chandra Energi",
     "role": "Magang Manajemen & Pemantauan Industri",
     "period": "September - Desember 2025",
-    "responsibilities": [
-      "Berkontribusi dalam evaluasi dan penerapan sistem pemantauan industri pintar.",
-      "Mengoptimalkan aliran data untuk aplikasi manajemen industri.",
-      "Membantu pengembangan sistem pemantauan Pembangkit Listrik Tenaga Surya (PLTS)."
-    ]
+    "description": "Selama periode magang ini, saya terlibat aktif dalam evaluasi dan penerapan sistem pemantauan industri pintar. Fokus utama saya adalah mengoptimalkan aliran data untuk aplikasi manajemen industri serta berkontribusi langsung dalam menyusun laporan dan merancang sistem pemantauan Pembangkit Listrik Tenaga Surya (PLTS) berbasis SCADA dan HMI."
   },
   {
     "company": "Gemeces Auto Variasi",
-    "role": "Magang Asisten Kelistrikan Otomotif",
+    "role": "Magang Asisten Kelistrikan Otomotif dan Aksesoris Mobil",
     "period": "2022",
-    "responsibilities": [
-      "Memasang dan mengintegrasikan aksesori dan elektronik mobil aftermarket.",
-      "Mendiagnosis dan menyelesaikan masalah sistem kelistrikan kendaraan."
-    ]
+    "description": "Berperan dalam instansi kelistrikan otomotif yang memiliki tanggung jawab utama memasang dan mengintegrasikan berbagai aksesori serta perangkat elektronik mobil aftermarket. Saya juga bertugas membantu dalam pemasangan aksesoris dan penyelesaian masalah pada sistem kelistrikan kendaraan secara efisien."
   }
 ]
